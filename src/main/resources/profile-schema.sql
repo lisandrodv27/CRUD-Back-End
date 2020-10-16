@@ -1,0 +1,8 @@
+DROP TABLE `profile`;
+
+CREATE TABLE profile (
+	id BIGINT PRIMARY KEY AUTO_INCREMENT,
+	name VARCHAR(250) NOT NULL,
+	nationality VARCHAR(250) NOT NULL,
+	description VARCHAR(250) NOT NULL
+);
